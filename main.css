@@ -70,10 +70,18 @@ a:focus {
   text-align: justify;
 }
 
+.border {
+  min-height: 20px;
+  height: 10%;
+  background-color: #0D47A1;
+  background-size: cover;
+}
+
 .scene {
   margin: 0;
   height: 100%;
   background-size: cover;
+  overflow: auto;
 }
 .scene .container {
   position: relative;
@@ -83,7 +91,7 @@ a:focus {
 }
 .scene h1 {
   color: #fff;
-  background-color: #0D47A1;
+  background-color: #2962FF;
   padding: 20px;
 }
 .scene p {
