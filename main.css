@@ -1,0 +1,113 @@
+a {
+  color: #fff !important;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  background-color: #2962FF !important;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  box-shadow: 0px 1px 5px #000;
+  transition: .2s;
+}
+a:hover {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  background-color: #2979FF !important;
+  text-decoration: none !important;
+  border-bottom: 2px solid;
+  box-shadow: 0px 1px 5px #000;
+  transition: .2s;
+}
+a:active {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  background-color: #2979FF !important;
+  text-decoration: none !important;
+  box-shadow: 0px 1px 3px #000 inset;
+  transition: .2s;
+}
+a:focus {
+  text-decoration: none !important;
+}
+.jumbo {
+  height: 100%;
+  min-height: 400px;
+  margin: 0;
+  background-size: cover;
+  font-family: sans-serif;
+  background-color: #90CAF9;
+  overflow: auto;
+}
+.jumbo .container {
+  position: relative;
+  width: 80%;
+  top: 20%;
+}
+.jumbo h1 {
+  color: #fff;
+  background-color: #2196F3;
+  margin: 0;
+  padding: 20px;
+  font-size: 42px;
+  font-weight: bolder;
+}
+.jumbo h2 {
+  color: #fff;
+  background-color: #1565C0;
+  width: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+}
+.jumbo p {
+  color: #111;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.scene {
+  margin: 0;
+  height: 100%;
+  background-size: cover;
+}
+.scene .container {
+  position: relative;
+  width: 80%;
+  top: 10%;
+  padding: 0;
+}
+.scene h1 {
+  color: #fff;
+  background-color: #0D47A1;
+  padding: 20px;
+}
+.scene p {
+  font-size: 16px;
+}
+.scene .col-md-8 {
+  background-color: #90CAF9;
+  min-height: 400px;
+  height: 80%;
+  padding: 0;
+}
+.scene .col-md-5 {
+  color: #fff;
+  background-color: #2196F3;
+  min-height: 200px;
+  height: 80%;
+  margin: 2%;
+  padding: 30px;
+}
+.scene .col-md-4 {
+  position: relative;
+  color: #fff;
+  background-color: #2196F3;
+  min-height: 400px;
+  height: 80%;
+  padding: 30px;
+}
