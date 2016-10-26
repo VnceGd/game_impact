@@ -6,7 +6,7 @@ a {
   background-color: #2962FF !important;
   text-decoration: none;
   border-bottom: 2px solid;
-  box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 0px 1px #000;
   transition: .3s;
 }
 a:hover {
@@ -16,7 +16,7 @@ a:hover {
   background-color: #2979FF !important;
   text-decoration: none !important;
   border-bottom: 2px solid;
-  box-shadow: 0px 5px 8px #000;
+  box-shadow: 0px 0px 8px #000;
   transition: .2s;
 }
 a:active {
@@ -62,7 +62,7 @@ a:focus {
   background-color: #2196F3;
   margin: 0;
   padding: 20px;
-  font-size: 42px;
+  /*font-size: 42px;*/
   font-weight: bolder;
 }
 .jumbo h2 {
@@ -83,9 +83,9 @@ a:focus {
 }
 
 .border {
-  min-height: 20px;
-  height: 10%;
-  background-color: #0D47A1;
+  min-height: 1px;
+  height: 0.5%;
+  background-color: #E3F2FD;
   background-size: cover;
 }
 
@@ -112,7 +112,7 @@ a:focus {
 .scene h3 {
   font-size: 20px;
   margin: 0;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
 }
 .scene p {
   margin: 0;
@@ -142,5 +142,10 @@ a:focus {
 }
 
 .footer {
+  background-color: #82B1FF;
   padding: 10px;
+}
+.footer a {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
