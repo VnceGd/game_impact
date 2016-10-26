@@ -33,8 +33,7 @@ a:focus {
 }
 
 .nav {
-  position: absolute;
-  background-color: blue;
+  position: relative;
   margin: 0;
   top: 5%;
   right: 0;
@@ -55,7 +54,7 @@ a:focus {
 .jumbo .container {
   position: relative;
   width: 80%;
-  top: 20%;
+  top: 10%;
 }
 .jumbo h1 {
   color: #fff;
