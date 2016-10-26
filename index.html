@@ -31,7 +31,9 @@
                     This project is meant to give insight into both sides of the argument and to play through scenarios
                     in which games both harm as well as aid someone.
                 </p>
-                <p> The following are hypothetical situations based on actual events.</p>
+                <p> The following are hypothetical scenarios based on actual events. 
+                Read through and decide which options presented are the ones that you believe are the best ones to make in each scenario.
+                Then view the 'Result' for analysis on each scenario. </p>
                 <p>
                     <a href="#scene1"> Proceed to Scenario 1 </a>
                 </p>
@@ -41,26 +43,30 @@
         <div class="scene" id="scene1">
             <div class="container">
                 <h1> Scenario 1 </h1>
-                <h3> It is 11:00 PM. Vincent is feeling tired but has an assignment that is due tomorrow. 
+                <h3> It is 11:00 PM. Vincent is feeling tired but has an assignment that is due tomorrow afternoon. 
                 Unfortunately, he has not made much progress due to his gaming habits.
                 He estimates that it would take about 2-3 hours to complete the assignment, not counting breaks. </h3>
                 <div class="col-md-8">
                     <div class="col-md-5">
-                        <h2> Situation 1: </h2>
-                        <p> Vincent goes to bed, hoping to get enough rest so that he might be able to finish up early tomorrow morning. </p>
+                        <h2> Option 1: </h2>
+                        <p> Vincent goes to bed, hoping to get enough rest so that he might be able to finish up early tomorrow morning. </p> <br>
+                        <p>
+                            <a onClick="document.getElementById('res1').innerHTML='Vincent wakes up at 6 AM and works on the assignment for an hour before preparing to head to school. Once he reaches school, he works on the assignment during his 9 AM class.'"> Select </a>
+                        </p>
                     </div>
                     <div class="col-md-5">
-                        <h2> Situation 2: </h2>
-                        <p> Vincent attempts to power through the assignment and pull off an "all-nighter." He falls asleep right after he finishes the assignment, around 2 AM. </p>
+                        <h2> Option 2: </h2>
+                        <p> Vincent attempts to power through the assignment and pull off an "all-nighter." He goes to sleep right after he finishes the assignment, around 2 AM. </p> <br>
+                        <p>
+                            <a onClick="document.getElementById('res1').innerHTML = 'Vincent wakes up the next day feeling drained of energy, and oversleeps. He may end up missing the first class of the next day.'"> Select </a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h2> Result </h2>
-                    <p> In both situations, Vincent will likely become stressed and will not be able to put forth his best work. 
-                    The first situation would create a great deal of pressure to fit in work at the last minute, 
-                    while the second situation may cause him to feel groggy when waking up the next morning, 
-                    impeding his ability to learn the next day. </p> <br>
+                    <p id="res1"> Result is displayed here. </p> <br>
                     <p style="text-align: right;">
+                        <a onClick="document.getElementById('res1').innerHTML='In both situations, Vincent will likely become stressed and will not be able to put forth his best work. The first situation would create a great deal of pressure to fit in work at the last minute, while the second situation may cause him to feel groggy when waking up the next morning, impeding his ability to learn the next day.'"> View conclusion </a> 
                         <a href="#scene2"> Next </a>
                     </p>
                 </div>
@@ -74,71 +80,98 @@
                 or he stays at home and plays video games for entertainment instead. </h3>
                 <div class="col-md-8">
                     <div class="col-md-5">
-                        <h2> Situation 1: </h2>
-                        <p> Vincent buys a ticket and goes to the event. Lacking much of a social life, he tries to stick around his closest friends. 
-                        However, he is often ignored and is left feeling like he could have enjoyed himself if he had stayed home. </p>
+                        <h2> Option 1: </h2>
+                        <p> Vincent buys a ticket and goes to the event. </p> <br>
+                        <p>
+                            <a onClick="document.getElementById('res2').innerHTML = 'Lacking much of a social life, he tries to stick around his closest friends. However, he is often ignored and is left feeling like he could have enjoyed himself if he had stayed home.'")> Select </a>
+                        </p>
                     </div>
                     <div class="col-md-5">
-                        <h2> Situation 2: </h2>
-                        <p> Vincent stays at home and plays video games the entire weekend. 
-                        Upon the start of the next week, though, he regrets not going to the event and believes that he could have had a more memorable experience if he had gone. </p>
+                        <h2> Option 2: </h2>
+                        <p> Vincent stays at home for the weekend, playing video games and working on assignments due next week.</p> <br>
+                        <p>
+                            <a onClick="document.getElementById('res2').innerHTML = 'Upon the start of the next week, he regrets not going to the event and believes that he could have had a more memorable experience if he had gone.'"> Select </a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h2> Result </h2>
-                    <p>
-                        One could argue that it would be best for Vincent to attend the event, and attempt to improve his social life. 
-                        In the situation described, it seems as though gaming has negatively impacted Vincent's attitude as he is socially awkward and is unable to interact much with others.
-                        If we suppose that Vincent tried to reach out in every possible way and was still rejected, it can be inferred that gaming had a poor influence on Vincent's life.
+                    <p id="res2">
+                        Result is displayed here.
                     </p> <br>
                     <p style="text-align: right;">
-                        <a href="#iact"> Next </a>
+                        <a onClick="document.getElementById('res2').innerHTML='One could argue that it would be best for Vincent to attend the event and attempt to improve his social life. In the situations described, it seems as though gaming has negatively impacted Vincent\'s attitude as he is socially awkward and is unable to interact much with others.'"> View conclusion </a> 
+                        <a href="#scene3"> Next </a>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="scene" id="iact">
+        <div class="scene" id="scene3">
             <div class="container">
                 <h1> Scenario 3 </h1>
-                <h3> It's your turn to decide. Vincent has been procrastinating on an important assignment, which is due in 3 days. However, there are workshops taking place each of the days leading up to the due date.
-                Vincent thinks that he might not have time to work on the assignment if he attends these workshops, but believes that what he will learn in the workshops may be beneficial. <br>
-                <b>What do you think Vincent should do?</b>
+                <h3> 
+                    Vincent is working in a group to solve a problem. He believes to have found a solution quite quickly, as he has seen a similar situation played out in a game that he has played. 
+                    However, he hesitates to inform the group of his thoughts, as they are discussing ideas separately.
                 </h3>
                 <div class="col-md-8">
                     <div class="col-md-5">
                         <h2> Option 1: </h2>
                         <p>
-                            Get working on that assignment, now! There's no time to waste, don't bother going to the workshops. Prioritize certain tasks and put others on hold.
+                            Vincent attempts to gain the attention of his group members and raises his voice to declare his opinions and ideas.
                         </p> <br>
                         <p>
-                            <a onClick="document.getElementById('res').innerHTML = 'Placeholder text for option 1.'"> Select </a>
+                            <a onClick="document.getElementById('res3').innerHTML = 'Vincent\'s past gaming experience has helped him to assess a problem and find a smart solution. Vincent takes charge of the situation and develops leadership skills. However, he might drown out the opinions of his group members.'"> Select </a>
                         </p>
                     </div>
                     <div class="col-md-5">
                         <h2> Option 2: </h2>
                         <p>
-                            Attend the workshops, perhaps they will provide tips to help to complete the assignment quicker. They'll also be useful in for future reference.
+                            Vincent waits until the group seems to have come to a conclusion, and only speaks if his group members ask him for an opinion.
                         </p> <br>
                         <p>
-                            <a onClick="document.getElementById('res').innerHTML = 'Placeholder text for option 2.'"> Select </a>
+                            <a onClick="document.getElementById('res3').innerHTML = 'Even though his gaming habits may have helped him to solve the problem, it does not really count if Vincent fails to share his ideas. He may be able to help others gain a new or different perspective, though, if they ask him for his opinion.'"> Select </a>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h2> Result </h2>
-                    <p id="res">
-                        Placeholder text.
+                    <p id="res3">
+                        Result is displayed here.
                     </p> <br>
                     <p style="text-align: right;">
-                        <a href="#iact"> Next </a>
+                        <a onClick="document.getElementById('res3').innerHTML = 'It might be best to compromise, sharing his idea if the others seem to be struggling with the problem, or after they have offered their own opinions. In this case, playing video games was beneficial, as it helped to build problem solving skills.'"> View conclusion </a>
+                        <a href="#quiz"> Next </a>
                     </p>
                 </div>
+            </div>
+        </div>
+        <div class="scene" id="quiz">
+            <div class="container">
+                <h1> Assessment </h1>
+                <h3> Please take a moment to complete a brief assessment on the website. </h3>
+                <form action="results.php">
+                    Are you a gamer? <br>
+                    <input type="radio" name="gamer" value="yes"> Yes <br>
+                    <input type="radio" name="gamer" value="no"> No <br>
+                    <input type="radio" name="gamer" value="hardcore"> I'm Hardcore. <br> <br>
+                    Was the website easy to navigate? <br>
+                    <input type="radio" name="rating" value="yes"> Yes <br>
+                    <input type="radio" name="rating" value="no"> No <br> <br>
+                    Did you learn something? <br>
+                    <input type="radio" name="rating" value="yes"> Yes <br>
+                    <input type="radio" name="rating" value="no"> No <br> <br>
+                    Would you like to hear about Vincent's future projects? <br>
+                    <input type="radio" name="rating" value="yes"> Yes <br>
+                    <input type="radio" name="rating" value="no"> No <br> <br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
         <div class="footer">
             <p>
                 Site created with <a href="https://c9.io">Cloud 9</a> and published by <a href="https://github.com">Github</a>.
-                References: <a href="https://material.google.com/style/color.html#">Google Design</a>, <a href="http://www.w3schools.com/">w3schools</a>.
+                References: <a href="https://material.google.com/style/color.html#">Google Design</a> <a href="http://www.w3schools.com/">w3schools</a>
             </p>
         </div>
     </body>
