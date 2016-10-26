@@ -2,7 +2,7 @@
 //Creates a smooth scrolling effect when links are clicked.
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $("a").on('click', function(event) {
+  $("a[href='#scene1'], a[href='#scene2'], a[href='#scene3'], a[href='#quiz']").on('click', function(event) {
     // Prevent default anchor click behavior
     event.preventDefault();
     // Store hash
